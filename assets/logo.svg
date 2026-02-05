@@ -1,0 +1,26 @@
+<svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orange Circle Background -->
+  <circle cx="50" cy="50" r="48" fill="#FF6B35"/>
+  
+  <!-- Letter 'm' with fork and spoon -->
+  <g fill="#1A1F2E">
+    <!-- Left part of 'm' -->
+    <path d="M 20 35 L 20 70 L 28 70 L 28 45 C 28 40 30 35 35 35 L 35 70 L 43 70 L 43 35 Z"/>
+    
+    <!-- Fork (left side) -->
+    <rect x="30" y="45" width="2" height="15" rx="1"/>
+    <rect x="33" y="45" width="2" height="15" rx="1"/>
+    <rect x="36" y="45" width="2" height="15" rx="1"/>
+    <rect x="39" y="45" width="2" height="15" rx="1"/>
+    
+    <!-- Middle part of 'm' -->
+    <path d="M 43 35 L 43 70 L 51 70 L 51 45 C 51 40 53 35 58 35 L 58 70 L 66 70 L 66 35 Z"/>
+    
+    <!-- Right part of 'm' -->
+    <path d="M 66 35 L 66 70 L 74 70 L 74 45 C 74 40 76 35 81 35 L 81 70 L 89 70 L 89 35 Z"/>
+    
+    <!-- Spoon (right side) -->
+    <ellipse cx="78" cy="48" rx="4" ry="6" fill="#1A1F2E"/>
+    <rect x="77" y="52" width="2" height="10" rx="1"/>
+  </g>
+</svg>
