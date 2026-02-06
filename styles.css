@@ -155,6 +155,8 @@ html {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     border-radius: 0.5rem;
+    width: 100%;
+    justify-content: center;
 }
 
 .btn-hero:hover {
@@ -169,6 +171,8 @@ html {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     border-radius: 0.5rem;
+    width: 100%;
+    justify-content: center;
 }
 
 .btn-hero-outline:hover {
@@ -182,6 +186,9 @@ html {
     padding: 1rem 2rem;
     font-size: 1.125rem;
     border-radius: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
 }
 
 .btn-cta:hover {
@@ -470,9 +477,10 @@ html {
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     margin-bottom: 2.5rem;
     width: 100%;
+    max-width: 100%;
 }
 
 .trust-badges {
@@ -542,6 +550,7 @@ html {
     max-width: 32rem;
     margin: 0 auto;
     display: block;
+    height: auto;
 }
 
 .floating {
@@ -694,6 +703,7 @@ html {
     max-width: 28rem;
     margin: 0 auto;
     display: block;
+    height: auto;
 }
 
 .solution-text {
@@ -897,7 +907,7 @@ html {
 .partner-logo img {
     max-width: 320px;
     max-height: 160px;
-    width: auto;
+    width: 100%;
     height: auto;
     object-fit: contain;
     transition: all 0.3s ease;
@@ -1341,6 +1351,137 @@ html {
 }
 
 /* Responsive Design */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.875rem;
+        line-height: 1.2;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+    
+    .cta-title {
+        font-size: 1.75rem;
+        line-height: 1.3;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    .section-description {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+    
+    .btn-hero,
+    .btn-hero-outline {
+        padding: 0.625rem 1.25rem;
+        font-size: 0.9375rem;
+    }
+    
+    .btn-cta {
+        padding: 0.875rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .logo-image {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .logo-text {
+        font-size: 1.125rem;
+    }
+    
+    .nav-content {
+        height: 4rem;
+    }
+    
+    .hero-section {
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+    
+    .problem-section,
+    .solution-section,
+    .benefit-section,
+    .testimonial-section,
+    .partners-section,
+    .faq-section,
+    .cta-section {
+        padding: 3rem 0;
+    }
+    
+    .section-header {
+        margin-bottom: 2rem;
+    }
+    
+    .hero-image img {
+        max-width: 100%;
+    }
+    
+    .floating-card {
+        padding: 0.75rem;
+        font-size: 0.75rem;
+    }
+    
+    .card-1 {
+        top: 1rem;
+        left: -0.5rem;
+    }
+    
+    .card-2 {
+        bottom: 2rem;
+        right: -0.5rem;
+    }
+    
+    .card-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .brand-logo-small {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .trust-text {
+        font-size: 0.8125rem;
+    }
+    
+    .problem-card,
+    .benefit-item,
+    .testimonial-card,
+    .faq-item {
+        padding: 1rem;
+    }
+    
+    .highlight-card {
+        padding: 0.875rem;
+        font-size: 0.875rem;
+    }
+    
+    .footer {
+        padding: 3rem 0 0;
+    }
+    
+    .footer-grid {
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
 @media (min-width: 640px) {
     .hero-buttons {
         flex-direction: row;
