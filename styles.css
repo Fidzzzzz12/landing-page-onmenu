@@ -386,6 +386,8 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 0 1rem;
 }
 
 .hero-image {
@@ -419,6 +421,8 @@ html {
     line-height: 1.15;
     margin-bottom: 1.5rem;
     color: hsl(var(--foreground));
+    width: 100%;
+    max-width: 100%;
 }
 
 .text-gradient {
@@ -438,6 +442,8 @@ html {
     margin-left: auto;
     margin-right: auto;
     line-height: 1.7;
+    width: 100%;
+    padding: 0 1rem;
 }
 
 .hero-buttons {
@@ -448,6 +454,12 @@ html {
     align-items: center;
     margin-bottom: 2.5rem;
     width: 100%;
+    padding: 0 1rem;
+}
+
+.hero-buttons .btn {
+    width: 100%;
+    max-width: 20rem;
 }
 
 .trust-badges {
